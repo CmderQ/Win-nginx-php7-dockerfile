@@ -1,0 +1,32 @@
+2019/01/23 10:59:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:13
+2019/01/23 11:02:25 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:05:38 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:05:39 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:05:39 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:05:39 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:06:23 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:09:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:13
+2019/01/23 11:12:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:12
+2019/01/23 11:25:48 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:12
+2019/01/23 11:28:36 [error] 6#6: *1 "/code/index.php" is not found (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2019/01/23 11:28:38 [error] 6#6: *1 "/code/index.php" is not found (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.99.100"
+2019/01/23 11:29:02 [error] 6#6: *1 open() "/code/index.html" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.99.100"
+2019/01/23 11:31:43 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:12
+2019/01/23 11:32:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:12
+2019/01/23 11:38:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:13
+2019/01/23 11:41:11 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:42:26 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:42:26 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.99.100:9000", host: "192.168.99.100"
+2019/01/23 11:46:06 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:08 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:08 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:08 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:10 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:13 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:13 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/23 11:46:24 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100"
+2019/01/27 14:06:35 [error] 6#6: *1 open() "/var/www/html/project/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100", referrer: "http://192.168.99.100/index.php"
